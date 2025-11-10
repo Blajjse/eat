@@ -1,0 +1,209 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Poppins", sans-serif;
+  --third-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  padding-top: 49.52px;
+  padding-bottom: 41.27px;
+  padding-right: 175px;
+  padding-left: 90px;
+}
+.header-logo {
+  width: 150px;
+  height: 65.21px;
+}
+.nav {
+  gap: 32px;
+  flex-direction: row;
+}
+.hero {
+  background-image: url("../img/bg.png");
+  height: 619px;
+}
+.hero-subtitle {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0em;
+text-align: center;
+color: #f6f6f6;
+padding-top: 80px;
+}
+.hero-title {
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 58px;
+line-height: 138%;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+padding: 10px 10px;
+margin: 10px 0;
+}
+.hero-text {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #f6f6f6;
+padding-top: 54px;
+}
+.hero-delivery-button {
+  box-shadow: 0 10px 30px 0 rgba(183, 50, 39, 0.2);
+background: #fa4a0c;
+border-radius: 30px;
+padding: 16px 0px;
+width: 236px;
+height: 68px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0em;
+color: #fff;
+margin-right: 67px;
+margin-left: 454px;
+}
+.hero-menu-button {
+  border: 1px solid #fff;
+border-radius: 30px;
+padding: 16px 0px;
+width: 236px;
+height: 68px;
+background-color: transparent;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0em;
+color: #fff;
+}
+.app-title {
+  font-family: var(--second-family);
+font-weight: 600;
+font-size: 44px;
+line-height: 82%;
+letter-spacing: 0em;
+color: #000;
+padding-left: 527px;
+padding-bottom: 183px;
+}
+.app-item-subtitle {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0em;
+color: #fa4a0c;
+}
+.app-item-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 142%;
+letter-spacing: 0.01em;
+color: #252b42;
+}
+.app-item-text {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+letter-spacing: 0.01em;
+color: #737373;
+}
+.app-item:nth-last-of-type(1) {
+  padding-right: 697px;
+  padding-left: 175px;
+}
+.app-item:nth-last-of-type(1)::before {
+  content: "";
+  display: block;
+  background-image: url(../img/one_phone.png);
+  height: 506.97px;
+  width: 250px;
+  
+}
+.app-item:nth-last-of-type(2) {
+  margin-left: 711px;
+  margin-right: 161px;
+  
+}
+.app {
+  padding-top: 56px;
+  padding-bottom: 190.71px;
+}
+.order {
+  background-image: url("../img/order_bg.png");
+  height: 589px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.order-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 142%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #fff;
+}
+.order-text {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #fff;
+}
+.order-playstore {
+  border-radius: 10px;
+padding: 18px 31px;
+width: 142px;
+height: 64px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.01em;
+color: #fff;
+background: #fa4a0c;
+margin-left: 264.5px;
+margin-right: 16px;
+
+}
+.order-appstore {
+  border: 1px solid #fff;
+border-radius: 10px;
+padding: 16px 45px;
+
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.01em;
+color: #fff;
+background-color: transparent;
+text-align: center;
+}
+.footer {
+  padding-top: 114px;
+  padding-bottom: 59px;
+}
